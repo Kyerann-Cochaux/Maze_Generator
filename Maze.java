@@ -77,9 +77,9 @@ public class Maze
 		this(10, 10);
 	}
 	
-	public Maze(int hauteur, int largeur, int startX, int startY, int endX, int endY)
+	public Maze(int height, int width, int startX, int startY, int endX, int endY)
 	{
-		this(hauteur, largeur);
+		this(height, width);
 		
 		this.startX = startX;
 		this.startY = startY;

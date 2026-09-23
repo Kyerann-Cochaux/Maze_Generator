@@ -1,5 +1,3 @@
-import java.util.concurrent.Flow.Subscriber;
-
 public class Test
 {
 	public static void main(String[] args)
@@ -21,7 +19,7 @@ public class Test
 		{
 			case 2:
 				maze = new Maze(
-					Integer.parseInt(args[0]), // Heigth
+					Integer.parseInt(args[0]), // Height
 					Integer.parseInt(args[1])  // Width
 				);
 				break;
